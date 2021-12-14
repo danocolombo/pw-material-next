@@ -2,21 +2,7 @@
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
-
-<!-- #default-branch-switch -->
-
-```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs
-cd nextjs
-```
-
-Install it and run:
-
-```sh
-npm install
-npm run dev
-```
+This was a standard react app website that got ported onto this new Next.js framework.  The pages from pw-material was the main source that came over and was adapted and polished.
 
 or:
 
