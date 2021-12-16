@@ -1,5 +1,5 @@
 import React from "react";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 import Link from "../src/Link";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
@@ -136,7 +136,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function LandingPage(props) {
+export default function LandingPage(props, { router }) {
   const classes = useStyles();
   const theme = useTheme();
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
@@ -172,7 +172,7 @@ export default function LandingPage(props) {
             </Typography>
           </Grid>
           <Grid sm item className={classes.animation}>
-            <Lottie options={defaultOptions} height={"100%"} width={"100%"} />
+            {/* <Lottie options={defaultOptions} height={"100%"} width={"100%"} /> */}
           </Grid>
         </Grid>
       </Grid>
@@ -183,7 +183,7 @@ export default function LandingPage(props) {
           container
           style={{ height: "40em", marginTop: "0em" }}
           alignItems="center"
-          justify="center"
+          justifyContent="center"
         >
           <Card className={classes.recoveryCard}>
             <CardContent>
