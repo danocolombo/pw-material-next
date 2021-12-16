@@ -3,16 +3,22 @@
   "version": "5.0.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.16.5",
     "@emotion/cache": "latest",
     "@emotion/react": "latest",
-    "@emotion/styled": "latest",
     "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "^4.12.3",
     "@mui/material": "latest",
     "clsx": "latest",
+    "core-js": "^3.20.0",
     "next": "latest",
+    "next-optimized-images": "^2.6.2",
     "prop-types": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "react": "^17.0.2",
+    "react-dom": "latest",
+    "react-lottie": "^1.2.3",
+    "webpack": "^5.65.0"
   },
   "scripts": {
     "dev": "next",
